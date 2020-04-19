@@ -2,28 +2,9 @@
 
 We want to develop a new transactions processor library to complete online payments. **TransactionProcessor.js** file contains the code scaffolding of our new payments engine.
 
-## Your tasks
+## Pattern 
+I believe the Transaction Processor is following the Singleton Pattern, as it is always returning the instance itself (this).
 
-- Have a look to the code. Do you miss any class?
-- Complete **./src/TransactionProcessor.js** class.
-- Make sure all tests pass. Would you include more tests?
-- Do you know the pattern used by TransactionProcessor class?
-
-We strongly recommend the use of: map, filter and reduce (among others).
-
-You can use app.js file to play with TransactionProcessor class.
-
-## Considerations
-
-### Valid operations
-
-Here you can find all array [operations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-
-The following operations are **forbidden**:
-
-- for
-- foreach
-- while
 
 ### Valid transactions
 
